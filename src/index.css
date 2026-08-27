@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f8f9fa;
+  --color-red: #d90429;
+  --color-text: #2b2d42;
+
+  --font-heading: "Lexend", sans-serif;
+  --font-body: "Poppins", sans-serif;
+  --font-signature: "Monsieur La Doulaise", cursive;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-25%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+  width: max-content;
+}
+
+@keyframes tech-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-tech-marquee {
+  animation: tech-marquee 30s linear infinite;
+}
+
+.animate-tech-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes footer-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-25%); }
+}
+
+.animate-footer-marquee {
+  animation: footer-marquee 25s linear infinite;
+  width: max-content;
+}
+
+@keyframes whatsapp-ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+.animate-whatsapp-ripple {
+  animation: whatsapp-ripple 1.8s ease-out infinite;
+}

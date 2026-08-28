@@ -48,7 +48,7 @@ export default function Hero() {
 
                         <div className="hero-social flex items-center justify-center lg:justify-start gap-6 sm:gap-8 mt-10 lg:mt-16">
                             <a
-                                href="https://linkedin.com/in/ratndeep"
+                                href="https://in.linkedin.com/in/ratndeepshejwal"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-1 text-sm font-medium text-text hover:text-red transition-colors duration-300"
@@ -56,7 +56,7 @@ export default function Hero() {
                                 LINKEDIN <span className="text-xs">↗</span>
                             </a>
                             <a
-                                href="https://github.com/ratndeep"
+                                href="https://github.com/Ratndeep-Shejwal"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-1 text-sm font-medium text-text hover:text-red transition-colors duration-300"

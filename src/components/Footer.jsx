@@ -54,9 +54,9 @@ export default function Footer() {
 
           <div className="footer-col flex flex-col gap-3">
             <p className="text-xs font-semibold text-bg/50 tracking-wide mb-1">SOCIAL</p>
-            <a href="https://linkedin.com/in/ratndeep" target="_blank" rel="noopener noreferrer"
+            <a href="https://in.linkedin.com/in/ratndeepshejwal" target="_blank" rel="noopener noreferrer"
                className="text-sm text-bg/80 hover:text-red transition-colors duration-300">LinkedIn</a>
-            <a href="https://github.com/ratndeep" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/Ratndeep-Shejwal" target="_blank" rel="noopener noreferrer"
                className="text-sm text-bg/80 hover:text-red transition-colors duration-300">GitHub</a>
           </div>
 

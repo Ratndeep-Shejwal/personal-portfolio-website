@@ -75,7 +75,7 @@ export default function Footer() {
           <div className="footer-col flex flex-col gap-3">
             <p className="text-xs font-semibold text-bg/50 tracking-wide mb-1">LOCATION</p>
             <p className="text-sm text-bg/80">Maharashtra, India</p>
-            <a href="/Ratndeep_Shejwal_Resume.pdf" download="Ratndeep_Shejwal_Resume.pdf"
+            <a href="/resume.pdf" download="resume.pdf"
                className="text-sm text-bg/80 hover:text-red transition-colors duration-300">
               Download Resume
             </a>
